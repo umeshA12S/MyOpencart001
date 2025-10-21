@@ -1,0 +1,47 @@
+16:29:43.756 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+16:29:43.831 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+16:36:21.007 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\parallelbrowser.xml"
+16:36:21.287 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sushm\Newworkplace\MyOpencart001\parallelbrowser.xml
+
+16:36:27.552 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+16:36:27.599 [TestNG-tests-2] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+16:36:28.315 [TestNG-tests-2] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+16:36:28.402 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+16:36:29.700 [TestNG-tests-2] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+16:36:29.707 [TestNG-tests-2] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+16:36:29.983 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+16:36:29.984 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+16:36:34.433 [TestNG-tests-2] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+16:36:34.565 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+16:36:35.152 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+16:36:35.152 [TestNG-tests-2] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+16:36:40.512 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+16:36:40.802 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+16:36:42.450 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+16:36:42.451 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+16:36:43.948 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+16:36:43.987 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+16:37:25.679 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\parallelbrowser.xml"
+16:37:25.954 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sushm\Newworkplace\MyOpencart001\parallelbrowser.xml
+
+16:37:30.673 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+16:37:31.101 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+16:37:31.930 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+16:37:31.932 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+16:37:34.516 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+16:37:35.059 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+16:37:35.818 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+16:37:36.383 [TestNG-tests-1] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+16:37:36.628 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+16:37:36.629 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+16:37:38.593 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+16:37:38.642 [TestNG-tests-3] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+22:38:47.128 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+22:41:17.719 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+22:41:54.513 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+22:44:16.018 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+07:52:36.608 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+07:52:44.591 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+07:52:44.760 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
