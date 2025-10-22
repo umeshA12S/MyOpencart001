@@ -1,13 +1,18 @@
 package TestBase;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -23,7 +28,7 @@ import org.apache.logging.log4j.Logger;
 
 public class BaseClass {
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public Logger logger;
     public Properties p;
 
@@ -110,6 +115,21 @@ public class BaseClass {
 
     public String randomAlphaNumeric() {
         return RandomStringUtils.randomAlphabetic(5) + "#" + RandomStringUtils.randomNumeric(3);
+    
+    }
+    
+    public String captureScreen(String tname) {
+    	String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+   
+    	TakesScreenshot takeScreenshot = (TakesScreenshot) driver;
+    	File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);
+        
+    	String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\"+ tname +"_"+timeStamp+".png";
+        File targetFile = new File(targetFilePath);
+    
+        sourceFile.renameTo(targetFile);
+    
+        return targetFilePath;
     }
 }
 

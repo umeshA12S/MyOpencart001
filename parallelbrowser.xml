@@ -3,6 +3,11 @@
 
 
 <suite thread-count="5" name="Suite" parallel ="tests">
+
+<listeners>
+<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+
   <test name="ChromeTest">
    <parameter name="os" value="windows"/>
    <parameter name="browser" value="Chrome"/>
@@ -10,7 +15,7 @@
       <class name="testCases.TC001_Account_RegisterationTest"/>
     </classes>
   </test> <!-- Test -->
-  
+
    <test name="EdgeTest">
    <parameter name="os" value="Windows"/>
    <parameter name="browser" value="Edge"/>
