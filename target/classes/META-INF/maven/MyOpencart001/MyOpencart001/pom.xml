@@ -21,7 +21,7 @@
 					<version>3.5.4</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>master.xml</suiteXmlFile>
+							<suiteXmlFile>docker.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

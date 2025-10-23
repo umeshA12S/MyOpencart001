@@ -7,5 +7,7 @@ C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\TestBase\BaseClass.java
 C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\testCases\TC001_Account_RegisterationTest.java
 C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\testCases\TC002_loginTest.java
 C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\testCases\TC003_VarifyLoginDDT_Test.java
+C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\testCases\TC004_UserTest.java
 C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\utilities\DataProviders.java
 C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\utilities\ExelUtility.java
+C:\Users\sushm\Newworkplace\MyOpencart001\src\test\java\utilities\ExtentReportManager.java
