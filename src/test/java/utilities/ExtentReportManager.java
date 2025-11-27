@@ -19,7 +19,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import TestBase.BaseClass;
 
-public class ExtentReportManager implements ITestListener {
+ public class ExtentReportManager implements ITestListener {
 
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extent;
@@ -28,7 +28,7 @@ public class ExtentReportManager implements ITestListener {
 	String repName;
 	
 	public void onStart(ITestContext textContext) {
-	/*SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
+	/*  SimpleDateFormat df = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 	  Date dt = new Date();
       String currentdatetimestamp=df.format(dt);
     */
@@ -68,7 +68,7 @@ public class ExtentReportManager implements ITestListener {
 	test.log(Status.PASS,result.getName()+"got successfully executed");
 	}	
 	
-	public void onTestFailure(ITestResult result) {
+/*	public void onTestFailure(ITestResult result) {
 	test= extent.createTest(result.getTestClass().getName());	
 	test.assignCategory(result.getMethod().getGroups());
 	
@@ -82,6 +82,30 @@ public class ExtentReportManager implements ITestListener {
 		e1.printStackTrace();
 	}
 }
+*/
+
+	public void onTestFailure(ITestResult result) {
+	    test = extent.createTest(result.getTestClass().getName());
+	    test.assignCategory(result.getMethod().getGroups());
+
+	    test.log(Status.FAIL, result.getName() + " got failed");
+	    test.log(Status.INFO, result.getThrowable().getMessage());
+
+	    try {
+	        // Access the shared static driver safely
+	        BaseClass base = new BaseClass();
+	        String imgPath = base.captureScreen(result.getName());
+	        if (imgPath != null) {
+	            test.addScreenCaptureFromPath(imgPath);
+	        } else {
+	            test.log(Status.WARNING, "Screenshot not captured (driver was null or closed).");
+	        }
+	    } catch (Exception e1) {
+	        e1.printStackTrace();
+	        test.log(Status.WARNING, "Exception while capturing screenshot: " + e1.getMessage());
+	    }
+	}
+
 	public void onTestSkipped(ITestResult result) {
 		test= extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
@@ -104,3 +128,6 @@ public class ExtentReportManager implements ITestListener {
 
 	
 }
+
+
+

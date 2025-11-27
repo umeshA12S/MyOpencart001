@@ -9,9 +9,7 @@ public class basePage {
 	basePage(WebDriver driver){
 		
 		this.driver =driver;
-		PageFactory.initElements(driver, this);
-		
-		
+		PageFactory.initElements(driver, this);	
 	}
 	
 }

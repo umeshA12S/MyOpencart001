@@ -1,18 +1,48 @@
-13:41:44.702 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
-13:48:06.669 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\docker.xml"
-13:55:14.575 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\docker.xml"
-14:12:33.312 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\docker-compose.yaml"
-14:24:02.937 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\Grouping.xml"
-14:24:08.319 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
-14:24:08.465 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
-14:24:09.064 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
-14:24:09.066 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
-14:24:10.533 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
-14:24:10.575 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
-14:43:42.866 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\Grouping.xml"
-14:43:48.171 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
-14:43:48.323 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
-14:43:48.931 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
-14:43:48.933 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
-14:43:50.795 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
-14:43:50.829 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+11:59:42.048 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+11:59:42.560 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+11:59:42.562 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+11:59:44.084 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+11:59:44.103 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+11:59:49.451 [main] INFO  testCases.TC002_loginTest - *****Starting TC002_loginTest*****
+11:59:50.777 [main] INFO  testCases.TC002_loginTest - validating the page*****
+11:59:50.777 [main] INFO  testCases.TC002_loginTest - ****fished TC002_loginTest *****
+12:02:49.835 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+12:02:53.170 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+12:02:53.373 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+12:02:53.891 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+12:02:53.896 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+12:02:54.565 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+12:02:55.542 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+12:02:58.059 [main] INFO  testCases.TC002_loginTest - *****Starting TC002_loginTest*****
+12:02:59.705 [main] INFO  testCases.TC002_loginTest - validating the page*****
+12:02:59.705 [main] INFO  testCases.TC002_loginTest - ****fished TC002_loginTest *****
+12:09:21.563 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+12:09:25.173 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+12:09:25.521 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+12:09:25.980 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+12:09:25.984 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+12:09:27.584 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+12:09:27.657 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+12:09:30.265 [main] INFO  testCases.TC002_loginTest - *****Starting TC002_loginTest*****
+12:09:32.008 [main] INFO  testCases.TC002_loginTest - validating the page*****
+12:09:32.008 [main] INFO  testCases.TC002_loginTest - ****fished TC002_loginTest *****
+12:21:18.960 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+12:21:22.760 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+12:21:23.061 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+12:21:23.611 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+12:21:23.617 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+12:21:25.086 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+12:21:25.145 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+12:21:27.646 [main] INFO  testCases.TC002_loginTest - *****Starting TC002_loginTest*****
+12:21:29.438 [main] INFO  testCases.TC002_loginTest - validating the page*****
+12:21:29.438 [main] INFO  testCases.TC002_loginTest - ****fished TC002_loginTest *****
+12:23:04.591 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+12:23:07.595 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+12:23:07.895 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+12:23:08.417 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+12:23:08.418 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+12:23:10.186 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+12:23:10.236 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+12:23:12.738 [main] INFO  testCases.TC002_loginTest - *****Starting TC002_loginTest*****
+12:23:14.436 [main] INFO  testCases.TC002_loginTest - validating the page*****
+12:23:14.436 [main] INFO  testCases.TC002_loginTest - ****fished TC002_loginTest *****

@@ -8,20 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC002_loginTest">
-        <methods>
-          <include name="varify_login"/>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC002_loginTest -->
-      <class name="testCases.TC001_Account_RegisterationTest">
+      <class name="testCases.TC004_AddToCartTest">
         <methods>
           <include name="setup"/>
+          <include name="varifyAddToCart"/>
           <include name="teardown"/>
-          <include name="varify_Account_registration"/>
         </methods>
-      </class> <!-- testCases.TC001_Account_RegisterationTest -->
+      </class> <!-- testCases.TC004_AddToCartTest -->
     </classes>
   </test> <!-- SpecificBrowserTest(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

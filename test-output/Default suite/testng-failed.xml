@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC003_VarifyLoginDDT_Test">
+      <class name="testCases.TC004_AddToCartTest">
         <methods>
-          <include name="varifyLogin"/>
           <include name="setup"/>
+          <include name="varifyAddToCart"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.TC003_VarifyLoginDDT_Test -->
+      </class> <!-- testCases.TC004_AddToCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,6 +7,8 @@
 <groups>
 <run>
 <include name="Regression"/>
+<!--<include name="Sanity"/>-->
+<!--<include name="Master"/>-->
 </run>
 </groups>
 
@@ -16,10 +18,11 @@
 
   <test thread-count="5" name="SpecificBrowserTest">
    <parameter name="os" value="Windows"/>
-   <parameter name="browser" value="Edge"/>
+   <parameter name="browser" value="Chrome"/>
     <classes>
   <class name="testCases.TC001_Account_RegisterationTest"/> 
   <class name="testCases.TC002_loginTest"/> 
+  <class name="testCases.TC004_AddToCartTest"/>
    <!-- <class name="testCases.TC003_VarifyLoginDDT_Test"/> -->
     </classes>
   </test> <!-- Test -->

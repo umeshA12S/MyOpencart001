@@ -21,7 +21,7 @@
 					<version>3.5.4</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>Docker.xml</suiteXmlFile>
+							<suiteXmlFile>master.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
@@ -90,5 +90,10 @@
 		</dependency>
 
 
+		<dependency>
+			<groupId>com.img.sogeti</groupId>
+			<artifactId>JavaBasic_automation</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>

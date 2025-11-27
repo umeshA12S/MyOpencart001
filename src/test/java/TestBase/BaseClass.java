@@ -10,6 +10,8 @@ import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
@@ -23,10 +25,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-public class BaseClass {
+ public class BaseClass {
 
     public static WebDriver driver;
     public Logger logger;
@@ -102,7 +101,8 @@ public class BaseClass {
 
     @AfterClass(groups = {"Sanity", "Regression", "Master"})
     public void teardown() {
-        driver.quit();
+        
+    	driver.quit();
     }
 
     public String randomString() {
@@ -132,6 +132,8 @@ public class BaseClass {
         return targetFilePath;
     }
 }
+
+
 
 
 

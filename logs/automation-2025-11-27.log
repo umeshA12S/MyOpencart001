@@ -1,0 +1,50 @@
+18:53:32.738 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.742 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.744 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.744 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.744 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.744 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.746 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.746 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.746 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.747 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.747 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.748 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+18:53:32.749 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+18:53:32.755 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sushm\AppData\Local\Temp\testng-eclipse--2062453817\testng-customsuite.xml
+
+18:53:32.769 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+18:53:32.977 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3dd1dc90: 68 ms
+18:53:32.996 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@75f65e45: 18 ms
+18:53:33.011 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4504d271: 14 ms
+18:53:33.020 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@328cf0e1: 8 ms
+18:53:33.029 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3e5499cc: 8 ms
+18:53:33.029 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@67ab1c47: 0 ms
+18:55:41.389 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\master.xml"
+18:55:41.646 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sushm\Newworkplace\MyOpencart001\master.xml
+
+18:55:46.310 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+18:55:46.498 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+18:55:47.166 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+18:55:47.174 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+18:55:47.934 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+18:55:49.030 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+18:55:53.381 [main] INFO  testCases.TC002_loginTest - *****Starting TC002_loginTest*****
+18:55:55.459 [main] INFO  testCases.TC002_loginTest - validating the page*****
+18:55:55.461 [main] INFO  testCases.TC002_loginTest - ****fished TC002_loginTest *****
+11:58:53.661 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sushm\Newworkplace\MyOpencart001\Docker.xml"
+11:58:59.049 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
+11:58:59.317 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on MyAccount Link
+11:58:59.900 [main] INFO  testCases.TC001_Account_RegisterationTest - Clicked on Register Link
+11:58:59.910 [main] INFO  testCases.TC001_Account_RegisterationTest - Providing customer details....
+11:59:00.606 [main] INFO  testCases.TC001_Account_RegisterationTest - Validating expected message....
+11:59:01.459 [main] INFO  testCases.TC001_Account_RegisterationTest - finished TC001_Account_RegisterationTest 
+11:59:05.739 [main] INFO  testCases.TC002_loginTest - *****Starting TC002_loginTest*****
+11:59:07.496 [main] INFO  testCases.TC002_loginTest - validating the page*****
+11:59:07.496 [main] INFO  testCases.TC002_loginTest - ****fished TC002_loginTest *****
+11:59:41.910 [main] INFO  testCases.TC001_Account_RegisterationTest - ***Starting TC001_Account_RegisterationTest****
